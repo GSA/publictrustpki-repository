@@ -17,7 +17,7 @@ button,
   @include font-smoothing;
   @include margin(0.5em 0.5em 0.5em null);
   appearance: none;
-  background-color: $color-primary;
+  background-color: $color-primary-darkest;
   border: 0;
   border-radius: $border-radius;
   color: $color-white;
@@ -39,7 +39,7 @@ button,
 
   &:hover,
   &.usa-button-hover {
-    background-color: $color-primary-darker;
+    background-color: $color-primary-alt-lightest;
     border-bottom: 0;
     color: $color-white;
     text-decoration: none;
@@ -61,7 +61,7 @@ button,
 
     &:hover,
     &.usa-button-hover {
-      background-color: $color-primary-alt-dark;
+      background-color: $color-primary-alt-lightest;
     }
 
     &:active,

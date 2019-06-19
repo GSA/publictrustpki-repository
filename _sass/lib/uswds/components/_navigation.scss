@@ -1,7 +1,7 @@
 // Header navigation ------------- //
 
 @mixin nav-border {
-  border-bottom: 0.7rem solid $color-primary;
+  border-bottom: 0.7rem solid $color-primary-darkest;
   padding-bottom: 1rem;
 }
 
@@ -78,8 +78,8 @@
   }
 
   .usa-current {
-    border-left: 4px solid $color-primary;
-    color: $color-primary;
+    border-left: 4px solid $color-primary-darkest;
+    color: $color-primary-darkest;
     font-weight: $font-bold;
     padding-left: 1.4rem;
   }
@@ -159,7 +159,7 @@
 
     &:hover {
       background-color: $color-gray-lightest;
-      color: $color-primary;
+      color: $color-primary-darkest;
 
       @include media($nav-width) {
         background-color: transparent;
@@ -264,7 +264,7 @@
     text-decoration: none;
 
     &:hover {
-      color: $color-primary;
+      color: $color-primary-darkest;
     }
   }
 

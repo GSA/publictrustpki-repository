@@ -2,12 +2,14 @@
 theme: uswds-jekyll
 
 # OpenGraph / Twitter metadata
-title: Repository.PKI.Gov
+title: repository.pki.gov
 description: Home of the U.S. Federal Public Trust TLS PKI, which issues publicly trusted TLS certificates to Federal Government websites.
 
 # GA and GitHub data
 google_analytics_ua: ###UPDATE###
 repo: https://github.com/GSA/publictrustpki-repository
+email: tls-help@gsa.gov
+incident_email: tls-incident@gsa.gov 
 
 exclude:
 - CONTRIBUTING.md
