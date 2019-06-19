@@ -13,3 +13,22 @@ $image-path: '../uswds/img';
 .usa-accordion-button {
     font-weight: 400;
 }
+
+.hero {
+  background-color: #005186; }
+  @media screen and (min-width: 600px) {
+    .hero {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      } }
+
+.usa-content p, .usa-content h1, .usa-content h2, .usa-content h3, .usa-content h4, .usa-content h5, .usa-content h6, .usa-content ul, .usa-content ol {
+  max-width: 200ch !important;
+  word-wrap: break-word; }
+  
+  
+.usa-layout-docs-main_content {
+       width: 85.0%; }
+
+
+$color-primary: #00bc4b;

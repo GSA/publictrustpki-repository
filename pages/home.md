@@ -5,28 +5,20 @@ permalink: /
 top: false
 
 hero:
-  heading: A public repository for the U.S. Federal Public Trust TLS PKI
-  content: This site contains information on the U.S. Federal Public Trust Transport Layer Security (TLS) Public Key Infrastructure (PKI), an infrastructure which supports automated issuance of digital certificates for Federal .mil and .gov web services.
+  heading: A repository for the U.S. Public Trust Public Key Infrastructure
+  content: Federal web service certificate issuance made easy.
 
   button:
     text: Learn more
-    href: http://127.0.0.1:4000/faq/#general
+    href: faq/
 ---
 
 <section class="usa-section">
   <div class="usa-grid usa-content">
-<div class="usa-width-one-third">
-## Featured Links:
-</div>
+<div class="usa-width-one-whole">
+  
+## Welcome
+This website is dedicated to a planned service the U.S. Government is building to issue digital certificates to federal web services.
 
-<div class="usa-width-two-thirds">
-
-**CA Certificates:**  Download copies of the [Issuing Certification Authority]({{ site.baseurl }}/assets/root.cert.cer) (CA) and [Root CA]({{ site.baseurl }}/assets/issuing.cert.cer) certificates.
-
-**Policy Documents:**  Download the latest [Certificate Policy]({{ site.baseurl }}/assets/cp.pdf){:target="blank"}, [Root CA Certification Practices Statement]({{ site.baseurl }}/assets/root-cps.pdf){:target="blank"} (CPS), or [Issuing CA CPS]({{ site.baseurl }}/assets/issuing-cps.pdf){:target="blank"}.
-
-**Audit Reports:** Download the most recent [WebTrust Principles and Criteria for Certification Authorities]({{ site.baseurl }}/assets/webtrust-reports.pdf){:target="blank"} or [WebTrust Principles and Criteria for Certification Authorities - SSL Baseline with Network Security]({{ site.baseurl }}/assets/webtrust-reports.pdf){:target="blank"} audit reports.
-
-</div>
-</div>
-</section>
+- Visit the **[Documentation]({{ site.baseurl }}/docs/)** section to read our Certificate Policy, Certification Practices Statements, Terms of Service, or incident reporting procedures.
+- Check out our **[Frequently Asked Questions]({{ site.baseurl }}/faq/)** page to learn more about the planned service.
