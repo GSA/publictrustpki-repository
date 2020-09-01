@@ -67,6 +67,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  kramdown (>= 2.3.0)
   kramdown-parser-gfm (~> 1.1.0)
   uswds-jekyll!
 
