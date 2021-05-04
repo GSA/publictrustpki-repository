@@ -710,7 +710,7 @@ button,
   margin-right: 0.5em;
   margin-bottom: 0.5em;
   appearance: none;
-  background-color: #0071bc;
+  background-color: #005186;
   border: 0;
   border-radius: 3px;
   color: #ffffff;
@@ -753,7 +753,7 @@ button,
   [type=reset].usa-button-hover,
   [type=image]:hover,
   [type=image].usa-button-hover {
-    background-color: #205493;
+    background-color: #bccad6;
     border-bottom: 0;
     color: #ffffff;
     text-decoration: none; }
@@ -792,7 +792,7 @@ button,
   [type=reset].usa-button-active,
   [type=image]:active,
   [type=image].usa-button-active {
-    background-color: #112e51; }
+    background-color: #005186; }
   .usa-button.usa-button-primary-alt,
   .usa-button-primary.usa-button-primary-alt,
   .usa-button:visited.usa-button-primary-alt,
@@ -802,7 +802,7 @@ button,
   [type=submit].usa-button-primary-alt,
   [type=reset].usa-button-primary-alt,
   [type=image].usa-button-primary-alt {
-    background-color: #02bfe7;
+    background-color: #e0e6eb;
     color: #212121; }
     .usa-button.usa-button-primary-alt:hover, .usa-button.usa-button-primary-alt.usa-button-hover,
     .usa-button-primary.usa-button-primary-alt:hover,
@@ -821,7 +821,7 @@ button,
     [type=reset].usa-button-primary-alt.usa-button-hover,
     [type=image].usa-button-primary-alt:hover,
     [type=image].usa-button-primary-alt.usa-button-hover {
-      background-color: #00a6d2; }
+      background-color: #bccad6; }
     .usa-button.usa-button-primary-alt:active, .usa-button.usa-button-primary-alt.usa-button-active,
     .usa-button-primary.usa-button-primary-alt:active,
     .usa-button-primary.usa-button-primary-alt.usa-button-active,
@@ -981,8 +981,8 @@ button,
     [type=reset].usa-button-outline.usa-button-active,
     [type=image].usa-button-outline:active,
     [type=image].usa-button-outline.usa-button-active {
-      box-shadow: inset 0 0 0 2px #112e51;
-      color: #112e51; }
+      box-shadow: inset 0 0 0 2px #005186;
+      color: #005186; }
     .usa-button.usa-button-outline:focus, .usa-button.usa-button-outline.usa-button-focus,
     .usa-button-primary.usa-button-outline:focus,
     .usa-button-primary.usa-button-outline.usa-button-focus,
@@ -1000,7 +1000,7 @@ button,
     [type=reset].usa-button-outline.usa-button-focus,
     [type=image].usa-button-outline:focus,
     [type=image].usa-button-outline.usa-button-focus {
-      box-shadow: inset 0 0 0 2px #112e51, 0 0 3px #3e94cf, 0 0 7px #3e94cf; }
+      box-shadow: inset 0 0 0 2px #005186, 0 0 3px #3e94cf, 0 0 7px #3e94cf; }
   .usa-button.usa-button-outline-inverse,
   .usa-button-primary.usa-button-outline-inverse,
   .usa-button:visited.usa-button-outline-inverse,
@@ -1881,7 +1881,7 @@ dfn {
   .usa-alert a {
     color: #205493; }
     .usa-alert a:focus, .usa-alert a:hover {
-      color: #112e51; }
+      color: #005186; }
   .usa-alert ul {
     margin-bottom: 0;
     margin-top: 1em;
@@ -1931,7 +1931,7 @@ dfn {
   background-image: url("../uswds/img/alerts/error.svg"); }
 
 .usa-alert-info {
-  background-color: #e1f3f8;
+  background-color: #bccad6;
   background-image: url("../uswds/img/alerts/info.png");
   background-image: url("../uswds/img/alerts/info.svg"); }
 
@@ -2732,10 +2732,10 @@ input.usa-input-medium {
     color: #ffffff; }
 
 .usa-section-dark .usa-hero-link {
-  color: #02bfe7; }
+  color: #e0e6eb; }
 
 .usa-hero-callout {
-  background-color: #112e51;
+  background-color: #005186;
   padding: 3rem; }
   @media screen and (min-width: 481px) {
     .usa-hero-callout {
@@ -2796,7 +2796,7 @@ input.usa-input-medium {
   -webkit-font-smoothing: antialiased; }
   @media screen and (min-width: 951px) {
     .usa-nav-link:hover span {
-      border-bottom: 0.7rem solid #0071bc;
+      border-bottom: 0.7rem solid #005186;
       padding-bottom: 1rem; } }
 
 @media screen and (min-width: 951px) {
@@ -2850,8 +2850,8 @@ input.usa-input-medium {
       .usa-nav nav {
         margin-top: 0; } }
   .usa-nav .usa-current {
-    border-left: 4px solid #0071bc;
-    color: #0071bc;
+    border-left: 4px solid #005186;
+    color: #005186;
     font-weight: 700;
     padding-left: 1.4rem; }
   .usa-nav .usa-button {
@@ -2945,7 +2945,7 @@ input.usa-input-medium {
       box-shadow: 0 0 3px #3e94cf, 0 0 7px #3e94cf; }
     .usa-nav-primary button:hover {
       background-color: #f1f1f1;
-      color: #0071bc; }
+      color: #005186; }
       @media screen and (min-width: 951px) {
         .usa-nav-primary button:hover {
           background-color: transparent; } }
@@ -2970,22 +2970,22 @@ input.usa-input-medium {
       background-size: 1rem; }
       @media screen and (min-width: 951px) {
         .usa-nav-primary button[aria-expanded=true] {
-          background-color: #112e51;
+          background-color: #005186;
           color: #ffffff;
           background-image: url("../uswds/img/angle-arrow-down-hover.png");
           background-image: url("../uswds/img/angle-arrow-down-hover.svg");
           background-position: right 1.5rem top 36%; }
           .usa-nav-primary button[aria-expanded=true]:hover {
-            background-color: #112e51; }
+            background-color: #005186; }
           .usa-nav-primary button[aria-expanded=true] span {
-            border-bottom: 0.7rem solid #0071bc;
+            border-bottom: 0.7rem solid #005186;
             padding-bottom: 1rem; } }
   @media screen and (min-width: 951px) {
     .usa-nav-primary a.usa-current {
       border-left: 0;
       padding-left: 1.5rem; }
       .usa-nav-primary a.usa-current span {
-        border-bottom: 0.7rem solid #0071bc;
+        border-bottom: 0.7rem solid #005186;
         padding-bottom: 1rem; } }
 
 @media screen and (min-width: 951px) {
@@ -3022,7 +3022,7 @@ input.usa-input-medium {
   text-decoration: none; }
   .usa-nav-secondary-links a:hover,
   .usa-nav-secondary-links .usa-header-search-button:hover {
-    color: #0071bc; }
+    color: #005186; }
 .usa-nav-secondary-links .usa-header-search-button {
   background-color: transparent;
   border: 0;
@@ -3061,7 +3061,7 @@ input.usa-input-medium {
     padding-left: 0;
     padding-top: 1.15rem;
     padding-bottom: 1.15rem;
-    background-color: #112e51;
+    background-color: #005186;
     min-width: 21.5rem;
     width: auto;
     position: absolute; }
@@ -3075,7 +3075,7 @@ input.usa-input-medium {
     padding-left: 1.5rem; } }
 @media screen and (min-width: 951px) {
   .usa-nav-submenu a:hover {
-    background-color: #112e51;
+    background-color: #005186;
     color: #ffffff;
     text-decoration: underline; } }
 .usa-nav-submenu li {
@@ -3116,7 +3116,7 @@ input.usa-input-medium {
     width: 100%; } }
 @media screen and (min-width: 951px) {
   .usa-megamenu::before {
-    background-color: #112e51;
+    background-color: #005186;
     content: '';
     display: block;
     height: 100%;
@@ -3126,7 +3126,7 @@ input.usa-input-medium {
     right: 100%; } }
 @media screen and (min-width: 951px) {
   .usa-megamenu::after {
-    background-color: #112e51;
+    background-color: #005186;
     content: '';
     display: block;
     height: 100%;
@@ -3263,7 +3263,7 @@ input.usa-input-medium {
   background-color: #f1f1f1; }
 
 .usa-section-dark {
-  background-color: #112e51;
+  background-color: #005186;
   color: #ffffff; }
   .usa-section-dark h1,
   .usa-section-dark h2,
@@ -3271,7 +3271,7 @@ input.usa-input-medium {
   .usa-section-dark h4,
   .usa-section-dark h5,
   .usa-section-dark h6 {
-    color: #02bfe7; }
+    color: #e0e6eb; }
   .usa-section-dark p {
     color: #ffffff; }
   .usa-section-dark a {
@@ -3365,7 +3365,7 @@ a:focus,
 .usa-footer-return-to-top a:focus {
   background-color: #fdb81e;
   outline: 3px solid #fdb81e !important;
-  color: #112e51; }
+  color: #005186; }
 
 button:focus,
 button.usa-menu-btn:focus,
@@ -3463,7 +3463,7 @@ ol ul {
     padding-top: 2.7rem; } }
 
 .usa-logo a {
-  color: #112e51; }
+  color: #005186; }
 
 @media screen and (min-width: 951px) {
   .usa-logo-text {
@@ -3497,7 +3497,7 @@ ol ul {
       padding-left: 0; } }
 
 .hero {
-  background-color: #112e51; }
+  background-color: #005186; }
   @media screen and (min-width: 600px) {
     .hero {
       padding-top: 4rem; } }
@@ -3519,7 +3519,7 @@ ol ul {
   -webkit-font-smoothing: antialiased; }
 
 .hero-heading-callout {
-  color: #02bfe7; }
+  color: #e0e6eb; }
 
 .hero-heading-content {
   font-weight: 400;
@@ -3528,7 +3528,7 @@ ol ul {
   font-size: 2.5rem; }
 
 .bg-primary-alt-lightest {
-  background-color: #e1f3f8; }
+  background-color: #bccad6; }
 
 .bg-color-gray-lightest {
   background-color: #f1f1f1; }
@@ -3554,11 +3554,11 @@ ol ul {
     line-height: 1.7; }
 
 .usa-footer-secondary_section {
-  background-color: #e1f3f8; }
+  background-color: #bccad6; }
   .usa-footer-secondary_section a {
     color: #205493; }
     .usa-footer-secondary_section a:hover, .usa-footer-secondary_section a:focus {
-      color: #112e51; }
+      color: #005186; }
 
 .footer-logo {
   display: inline-block;
@@ -3593,7 +3593,7 @@ ol ul {
     .usa-sidenav-contents a:hover {
       color: #205493; }
     .usa-sidenav-contents a:focus {
-      color: #112e51; }
+      color: #005186; }
 
 /* Style tweaks. */
 code {
@@ -3666,7 +3666,7 @@ h2:hover .header-link, h3:hover .header-link, h4:hover .header-link, h5:hover .h
     position: relative; } }
 
 .header-alert {
-  background-color: #e1f3f8;
+  background-color: #bccad6;
   display: none;
   padding: 10px;
   position: absolute;
@@ -3677,7 +3677,7 @@ h2:hover .header-link, h3:hover .header-link, h4:hover .header-link, h5:hover .h
     .header-alert {
       display: inherit; } }
   .header-alert p, .header-alert a {
-    color: #112e51;
+    color: #005186;
     margin: 0; }
   .header-alert a {
     font-weight: 700; }
@@ -3688,3 +3688,17 @@ h2:hover .header-link, h3:hover .header-link, h4:hover .header-link, h5:hover .h
 
 .usa-accordion-button {
   font-weight: 400; }
+
+.hero {
+  background-color: #005186; }
+
+@media screen and (min-width: 600px) {
+  .hero {
+    padding-top: 4rem;
+    padding-bottom: 4rem; } }
+.usa-content p, .usa-content h1, .usa-content h2, .usa-content h3, .usa-content h4, .usa-content h5, .usa-content h6, .usa-content ul, .usa-content ol {
+  max-width: 200ch !important;
+  word-wrap: break-word; }
+
+.usa-layout-docs-main_content {
+  width: 85.0%; }
