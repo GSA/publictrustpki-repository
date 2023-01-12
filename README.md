@@ -1,4 +1,4 @@
-This repository was the future site for a Public TLS PKI Certificate Policy. It is no longer supported.
+This repository was the future site for a Public TLS PKI Certificate Policy. It is no longer supported as of January 12, 2023.
 
 ## Repository.PKI.Gov
 
