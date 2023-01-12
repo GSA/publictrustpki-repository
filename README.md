@@ -1,3 +1,5 @@
+This repository was the future site for a Public TLS PKI Certificate Policy. It is no longer supported.
+
 ## Repository.PKI.Gov
 
 ### This is a **DRAFT** public repository for the U.S. Federal Public Trust TLS PKI.
